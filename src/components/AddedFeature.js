@@ -4,6 +4,7 @@ import {removeCarFeature} from '../actions/carAction'
 import {removeFeature} from '../actions/featureAction'
 const AddedFeature = props => {
   const handleClick = (e) => {
+ 
     props.removeCarFeature(props.feature)
     props.removeFeature(props.feature)
   }
